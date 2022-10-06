@@ -19,6 +19,21 @@ need of blacklist.
 
 [Chinese Reference](https://github.com/semigodking/redsocks/wiki)
 
+macOS Big Sur install
+---
+
+```bash
+brew install openssl libevent
+
+git clone https://github.com/wangxian/redsocks.git
+cd redsocks
+
+make DISABLE_SHADOWSOCKS=true
+
+
+```
+
+
 HOW TO BUILD
 ------------
 ### Prerequisites
